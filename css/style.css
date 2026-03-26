@@ -1,0 +1,38 @@
+body {
+  display: grid;
+  min-height: 100fr; /* fixes the minimum size to 100 percent of the view appearnlty*/
+}
+
+.hero {
+  background-image: url("/resources/scoverexample.png");
+  display: flex;
+  justify-content: center;
+  color: rgb(255, 255, 255);
+  font-style: italic;
+  font-family: verdana;
+}
+
+.banner-pic {
+  display: flex;
+
+  image-rendering: pixelated;
+}
+.container {
+  border: 3px;
+  display: block;
+  background-color: aquamarine;
+}
+
+.container-1 {
+  background-color: rgb(24, 209, 76);
+}
+.bg-dots {
+  background-image:
+    radial-gradient(grey 1px, transparent 1px),
+    radial-gradient(grey 1px, transparent 1px);
+  background-size: 20px 20px;
+  /* background-position: center; */
+  background-position:
+    0 0,
+    10px 10px;
+}
